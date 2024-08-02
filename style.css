@@ -3,28 +3,42 @@ body {
     margin: unset;
 }
 
+:root {
+    font-family: 'arial';
+}
+
 .pokemon {
     max-width: 90%;
     width: 300px;
+    height: 300px;
     margin: 400px auto;
     padding: 20px;
     background-color: white;
 }
 
+.pokemon img {
+    padding: 0 40px;
+    margin-top: -220px;
+}
+
 .pokemon h1 {
+    color: #f2aa36;
     font-size: 36px;
     text-align: center;
 }
 
 .pokemon p {
+    color: #888;
     font-size: 16px;
+    text-align: center;
+
 }
 
 .pokemon h1::after {
     content: ' ';
     display: block;
-    background-color: orange;
-    width: 40px;
+    background-color: #f2aa36;
+    width: 77px;
     height: 4px;
     margin: 0 auto;
     border-radius: 4px;
